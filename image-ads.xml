@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<advertisements>
+    <ad>
+        <url>https://example.com/sale</url>
+        <image>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiVdBb8yG-F4kGuGhAE5mkRZox2hB73HiUF1As6UFmN5eoc18i_SMGKQdQCmvpnbO-X-IE9Rb8Fhsw4x760HWh8WzLNlAKJAjS4VAqdwwbfHWVC6b4XK-aNk8gUdmwMMDbxd1e95s-066-VJcZ0R5or6VplS_3nTzTfKkNRqMh6YeTjg85XsBkiRbffkdh/s1600/Vietrick.png</image>
+        <width>1600</width>
+        <height>900</height>
+        <title>Flash Sale: 50% OFF Sitewide!</title>
+        <button>Shop Now</button>
+    </ad>
+    <ad>
+        <url>https://example.com/subscribe</url>
+        <image>https://via.placeholder.com/450x200.png?text=Subscribe+Today</image>
+        <width>450</width>
+        <height>200</height>
+        <title>Join Our Newsletter for Exclusive Deals!</title>
+        <button>Subscribe</button>
+    </ad>
+    <ad>
+        <url>https://example.com/new-arrivals</url>
+        <image>https://via.placeholder.com/450x200.png?text=New+Arrivals</image>
+        <width>450</width>
+        <height>200</height>
+        <title>Check Out Our Latest Collection!</title>
+        <button>Explore Now</button>
+    </ad>
+</advertisements>

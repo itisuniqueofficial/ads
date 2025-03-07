@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<advertisements>
+    <ad>
+        <url>https://example.com/sale</url>
+        <video>https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_1mb.mp4</video>
+        <width>1280</width>
+        <height>720</height>
+        <title>Flash Sale: 50% OFF Sitewide!</title>
+        <button>Shop Now</button>
+    </ad>
+    <ad>
+        <url>https://example.com/subscribe</url>
+        <video>https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_2mb.mp4</video>
+        <width>1280</width>
+        <height>720</height>
+        <title>Join Our Newsletter for Exclusive Deals!</title>
+        <button>Subscribe</button>
+    </ad>
+    <ad>
+        <url>https://example.com/new-arrivals</url>
+        <video>https://sample-videos.com/video321/mp4/720/big_buck_bunny_720p_5mb.mp4</video>
+        <width>1280</width>
+        <height>720</height>
+        <title>Check Out Our Latest Collection!</title>
+        <button>Explore Now</button>
+    </ad>
+</advertisements>

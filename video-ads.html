@@ -1,0 +1,17 @@
+<!-- Popup Ad CSS -->
+<link rel="stylesheet" href="/video-ads.css">
+<!-- Popup Ad -->
+<div class="popup-overlay" id="popupAd" role="dialog" aria-labelledby="adTitle" aria-modal="true">
+    <div class="popup-content">
+        <button class="close-button" onclick="closePopup()" aria-label="Close popup">×</button>
+        <p class="ad-text" id="adTitle"></p>
+        <video class="ad-video" controls muted playsinline autoplay controlsList="nodownload" disablePictureInPicture>
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button class="ad-button"></button>
+        <p style="font-size: small;text-align: center;">Ads By It Is Unique Official</p>
+    </div>
+</div>
+<!-- Popup Ad JS -->
+<script src="/video-ads.js"></script>
