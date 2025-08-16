@@ -6,7 +6,7 @@
 */
 
 (function () {
-  const XML_PATH = "ad-data.xml";
+  const XML_PATH = "https://ads.itisuniqueofficial.com/ad-data.xml";
   const STORAGE_KEY = "ad_metrics_v2";
   const FREQUENCY_CAP = 5; // max times same ad shown per session
 
@@ -303,4 +303,5 @@
   }
 
   document.addEventListener("DOMContentLoaded", boot);
+
 })();
