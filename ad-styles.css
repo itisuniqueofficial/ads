@@ -1,10 +1,11 @@
 /* ============================
-   Ad System Styles
+   Dynamic Automated Ads Styles
    Sponsored by It Is Unique Official
+   Namespace: iiuo-
    ============================ */
 
 /* Container */
-.ad-container {
+.iiuo-ad-container {
   width: 100%;
   margin: 20px 0;
   font-family: Arial, sans-serif;
@@ -16,9 +17,9 @@
 }
 
 /* Ad Card */
-.ad-card {
+.iiuo-ad-card {
   width: 100%;
-  max-width: 550px;
+  /* Always full width */
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
@@ -26,10 +27,23 @@
   word-wrap: break-word;
   word-break: break-word;
   line-break: anywhere;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.iiuo-ad-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Fade out when closed */
+.iiuo-ad-card.fade-out {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: all 0.3s ease;
 }
 
 /* Header */
-.ad-top {
+.iiuo-ad-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,17 +56,17 @@
   gap: 5px;
 }
 
-.ad-top a {
+.iiuo-ad-top a {
   color: #0066cc;
   text-decoration: none;
   font-weight: 500;
 }
 
-.ad-top a:hover {
+.iiuo-ad-top a:hover {
   text-decoration: underline;
 }
 
-.ad-close {
+.iiuo-ad-close {
   border: none;
   background: none;
   font-size: 18px;
@@ -61,12 +75,25 @@
   line-height: 1;
 }
 
-.ad-close:hover {
+.iiuo-ad-close:hover {
   color: #000;
 }
 
+/* Ad Badge */
+.iiuo-ad-badge {
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #f8f8f8;
+  margin-left: 6px;
+}
+
 /* Ad Body */
-.ad-body {
+.iiuo-ad-body {
   display: flex;
   align-items: flex-start;
   gap: 12px;
@@ -75,14 +102,15 @@
   padding: 12px;
   width: 100%;
   box-sizing: border-box;
+  transition: background 0.2s ease;
 }
 
-.ad-body:hover {
+.iiuo-ad-body:hover {
   background: #f9f9f9;
 }
 
 /* Image */
-.ad-icon {
+.iiuo-ad-icon {
   width: 80px;
   height: 80px;
   border-radius: 6px;
@@ -92,7 +120,7 @@
 }
 
 /* Text */
-.ad-text {
+.iiuo-ad-text {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -100,7 +128,7 @@
   min-width: 0;
 }
 
-.ad-title {
+.iiuo-ad-title {
   font-size: 16px;
   font-weight: bold;
   margin: 0 0 6px;
@@ -109,11 +137,11 @@
   word-break: break-word;
 }
 
-.ad-title:hover {
+.iiuo-ad-title:hover {
   text-decoration: underline;
 }
 
-.ad-desc {
+.iiuo-ad-desc {
   font-size: 14px;
   color: #444;
   margin: 0 0 6px;
@@ -121,37 +149,65 @@
   word-break: break-word;
 }
 
-.ad-link {
+.iiuo-ad-link {
   font-size: 12px;
   color: #006600;
   white-space: normal;
   overflow-wrap: break-word;
   word-break: break-word;
   line-break: anywhere;
+  text-decoration: none;
+}
+
+.iiuo-ad-link:hover {
+  text-decoration: underline;
 }
 
 /* Responsive */
 @media (max-width: 600px) {
-  .ad-body {
+  .iiuo-ad-body {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .ad-icon {
+  .iiuo-ad-icon {
     width: 100%;
     max-height: 200px;
     height: auto;
   }
 
-  .ad-text {
+  .iiuo-ad-text {
     margin-top: 8px;
   }
 
-  .ad-title {
+  .iiuo-ad-title {
     font-size: 15px;
   }
 
-  .ad-desc {
+  .iiuo-ad-desc {
     font-size: 13px;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .iiuo-ad-card {
+    background: #222;
+    color: #eee;
+    border-color: #444;
+  }
+
+  .iiuo-ad-top {
+    background: #333;
+    color: #bbb;
+    border-bottom-color: #444;
+  }
+
+  .iiuo-ad-link {
+    color: #55dd55;
+  }
+
+  .iiuo-ad-title {
+    color: #66aaff;
   }
 }
