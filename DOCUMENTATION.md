@@ -126,7 +126,3 @@ Integrating **Ads By It Is Unique Official** into your site is quick and simple.
 Just include the script, add ad sections, and the ads will display automatically.
 
 Start using it today at: [https://ads.itisuniqueofficial.com/](https://ads.itisuniqueofficial.com/)
-
----
-
-Would you like me to also create a **Markdown version** of this documentation so you can directly use it on GitHub Pages or inside your project’s docs
