@@ -3,48 +3,42 @@
   <!-- rotation-interval = auto-rotate ads every X seconds (here: 10s) -->
 
   <ad weight="2">
-    <href>https://your-site.example/google-search-result-preview</href>
+    <href>https://www.itisuniqueofficial.com/2024/12/canva-pro.html</href>
     <sponsor-url>https://www.itisuniqueofficial.com/</sponsor-url>
-    <sponsor-name>pskathait.com</sponsor-name>
-    <src>https://google.com/favicon.ico</src>
-    <alt>Preview website in Google search results</alt>
-    <width>80</width>
-    <height>80</height>
-    <ad-title>Google Search Result Preview</ad-title>
-    <ad-desc>
-      Instantly see how your website will appear on Google search results. 
-      Optimize your titles, meta descriptions, and boost your SEO performance.
-    </ad-desc>
-    <ad-link>your-site.example/google-search-result-preview</ad-link>
+    <sponsor-name>itisuniqueofficial.com</sponsor-name>
+    <src>https://play-lh.googleusercontent.com/AZvFkMmN5dAzee-N6UrjRo8nS0eOu28U-sJx_oimuzo_5ZshMBccG1IJkAWzD5XfL2Q=w152-h152-p-k-no-nu-rw</src>
+    <alt>Canva</alt>
+    <width>152</width>
+    <height>152</height>
+    <ad-title>Canva Pro - Affordable Design Plans for Everyone</ad-title>
+    <ad-desc>Canva Pro now at low cost — 3 Months ₹101, 6 Months ₹199, 1 Year ₹309. Enjoy all premium features for your designs.</ad-desc>
+    <ad-link>itisuniqueofficial.com/2024/12/canva-pro.html</ad-link>
   </ad>
 
   <ad weight="1">
-    <href>https://your-site.example/seo-analyzer</href>
-    <sponsor-url>https://www.itisuniqueofficial.com/</sponsor-url>
-    <sponsor-name>itisuniqueofficial.com</sponsor-name>
-    <src>https://img.itisuniqueofficial.com/seo.png</src>
-    <alt>SEO Analyzer Tool</alt>
-    <width>120</width>
-    <height>120</height>
-    <ad-title>SEO Analyzer Tool</ad-title>
-    <ad-desc>
-      Analyze your website SEO instantly and get professional recommendations to rank higher.
-    </ad-desc>
-    <ad-link>your-site.example/seo-analyzer</ad-link>
+    <href>https://www.theblazetimes.in/2025/08/realme-p4-series-india-launch-august-20-2025.html</href>
+    <sponsor-url>https://www.theblazetimes.in/</sponsor-url>
+    <sponsor-name>theblazetimes.in</sponsor-name>
+    <src>https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsbTstFndSOfNMmPqIcX02XfuZd5irwQj3AXr1rKf5Bo84yf-GtL6bRmnESF3eZ1zdXyy3VYTgICNv0HfMzRXkodeToHPd_zNvXHIlOe1_cewEGwVJDaFD2PDbyfQmoXDspCzs23Aq6qDmB2kH25bdOUODqrg2JOWBtXdc1gSNLs7NdrVez5CleZ-rnso/s1600-rw/realme%20P4%20Pro%205G.jpg</src>
+    <alt>realme P4 Pro 5G</alt>
+    <width>1200</width>
+    <height>675</height>
+    <ad-title>Ready for Realme P4 & P4 Pro? India Launching August 20 at ₹30K-Range</ad-title>
+    <ad-desc>Don’t miss August 20 – Realme P4 and P4 Pro debut in India! Expect ultra-bright AMOLED displays, 7,000 mAh batteries, AI-driven camera tech, and top performance in the sub-₹30K zone.</ad-desc>
+    <ad-link>theblazetimes.in/2025/08/realme-p4-series-india-launch-august-20-2025.html</ad-link>
   </ad>
 
   <ad weight="3">
-    <href>https://your-site.example/keyword-rank-checker</href>
+    <href>https://www.itisuniqueofficial.com/2025/07/buy-crunchyroll-premium-accounts.html</href>
     <sponsor-url>https://www.itisuniqueofficial.com/</sponsor-url>
     <sponsor-name>itisuniqueofficial.com</sponsor-name>
-    <src>https://img.itisuniqueofficial.com/keyword.png</src>
-    <alt>Keyword Rank Checker</alt>
-    <width>100</width>
-    <height>100</height>
-    <ad-title>Keyword Rank Checker</ad-title>
-    <ad-desc>
-      Check your keyword rankings across Google in real-time. Track progress and optimize content easily.
-    </ad-desc>
-    <ad-link>your-site.example/keyword-rank-checker</ad-link>
+    <src>https://play-lh.googleusercontent.com/Fnor8mzNEsiWTfSTI_RXUmsaZW0eYw0RkIgIhSCphG4Y0ZgwC-zK2qzik-9VIxQDWQ=s152-rw</src>
+    <alt>Crunchyroll</alt>
+    <width>152</width>
+    <height>152</height>
+    <ad-title>Buy Pre Activated Crunchyroll Premium at Discounted Price</ad-title>
+    <ad-desc>Buy Crunchyroll Premium pre-activated accounts at low prices. Instant access, no wait.</ad-desc>
+    <ad-link>itisuniqueofficial.com/2025/07/buy-crunchyroll-premium-accounts.html</ad-link>
   </ad>
+
 </ads>
