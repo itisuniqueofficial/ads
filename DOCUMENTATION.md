@@ -28,13 +28,13 @@ To display ads on your website, follow these steps:
 Add the following script **before the closing `</body>` tag** of your HTML file:
 
 ```html
-<script src="https://ads.itisuniqueofficial.com/ad-data.js"></script>
+<script src="https://ads.itisuniqueofficial.com/ad-script.js"></script>
 ```
 
 Or you can load it asynchronously with `defer`:
 
 ```html
-<script defer src="https://ads.itisuniqueofficial.com/ad-data.js"></script>
+<script defer src="https://ads.itisuniqueofficial.com/ad-script.js"></script>
 ```
 
 ---
@@ -83,7 +83,7 @@ Here’s a working example with multiple ad placements:
   <p>Final content here.</p>
 
   <!-- Ad Script -->
-  <script defer src="https://ads.itisuniqueofficial.com/ad-data.js"></script>
+  <script defer src="https://ads.itisuniqueofficial.com/ad-script.js"></script>
 </body>
 </html>
 ```
