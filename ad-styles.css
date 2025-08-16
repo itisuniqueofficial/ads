@@ -1,0 +1,136 @@
+/* ============================
+   Ad System Styles
+   Sponsored by It Is Unique Official
+   ============================ */
+
+/* Container */
+.ad-container {
+  width: 100%;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ad Card */
+.ad-card {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  /* No box-shadow, no hover transform */
+}
+
+/* Header */
+.ad-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: #f8f9fa;
+  font-size: 13px;
+  color: #555;
+  border-bottom: 1px solid #eee;
+}
+
+.ad-top a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.ad-top a:hover {
+  text-decoration: underline;
+}
+
+.ad-close {
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #666;
+  line-height: 1;
+}
+
+.ad-close:hover {
+  color: #000;
+}
+
+/* Ad Body */
+.ad-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ad-body:hover {
+  background: #f9f9f9;
+}
+
+/* Image */
+.ad-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid #ddd;
+}
+
+/* Text */
+.ad-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ad-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 6px;
+  color: #0066cc;
+}
+
+.ad-title:hover {
+  text-decoration: underline;
+}
+
+.ad-desc {
+  font-size: 14px;
+  color: #444;
+  margin: 0 0 6px;
+  line-height: 1.4;
+}
+
+.ad-link {
+  font-size: 12px;
+  color: #006600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .ad-body {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ad-icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .ad-text {
+    margin-top: 8px;
+  }
+}

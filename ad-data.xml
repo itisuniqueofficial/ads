@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ads rotation-interval="10">
+  <!-- rotation-interval = auto-rotate ads every X seconds (here: 10s) -->
+
+  <ad weight="2">
+    <href>https://your-site.example/google-search-result-preview</href>
+    <sponsor-url>https://www.itisuniqueofficial.com/</sponsor-url>
+    <sponsor-name>pskathait.com</sponsor-name>
+    <src>https://google.com/favicon.ico</src>
+    <alt>Preview website in Google search results</alt>
+    <width>80</width>
+    <height>80</height>
+    <ad-title>Google Search Result Preview</ad-title>
+    <ad-desc>
+      Instantly see how your website will appear on Google search results. 
+      Optimize your titles, meta descriptions, and boost your SEO performance.
+    </ad-desc>
+    <ad-link>your-site.example/google-search-result-preview</ad-link>
+  </ad>
+
+  <ad weight="1">
+    <href>https://your-site.example/seo-analyzer</href>
+    <sponsor-url>https://www.itisuniqueofficial.com/</sponsor-url>
+    <sponsor-name>itisuniqueofficial.com</sponsor-name>
+    <src>https://img.itisuniqueofficial.com/seo.png</src>
+    <alt>SEO Analyzer Tool</alt>
+    <width>120</width>
+    <height>120</height>
+    <ad-title>SEO Analyzer Tool</ad-title>
+    <ad-desc>
+      Analyze your website SEO instantly and get professional recommendations to rank higher.
+    </ad-desc>
+    <ad-link>your-site.example/seo-analyzer</ad-link>
+  </ad>
+
+  <ad weight="3">
+    <href>https://your-site.example/keyword-rank-checker</href>
+    <sponsor-url>https://www.itisuniqueofficial.com/</sponsor-url>
+    <sponsor-name>itisuniqueofficial.com</sponsor-name>
+    <src>https://img.itisuniqueofficial.com/keyword.png</src>
+    <alt>Keyword Rank Checker</alt>
+    <width>100</width>
+    <height>100</height>
+    <ad-title>Keyword Rank Checker</ad-title>
+    <ad-desc>
+      Check your keyword rankings across Google in real-time. Track progress and optimize content easily.
+    </ad-desc>
+    <ad-link>your-site.example/keyword-rank-checker</ad-link>
+  </ad>
+</ads>
