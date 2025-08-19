@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ads rotation-interval="10">
 
-  <ad weight="2">
+  <ad weight="4">
     <href>https://www.instagram.com/itisuniqueofficial/</href>
     <sponsor-url>https://ads.itisuniqueofficial.com/</sponsor-url>
     <sponsor-name>itisuniqueofficial.com</sponsor-name>
@@ -16,7 +16,7 @@
     <ad-link>instagram.com/itisuniqueofficial</ad-link>
   </ad>
 
-  <ad weight="2">
+  <ad weight="5">
     <href>https://t.me/itisuniqueofficial_channel</href>
     <sponsor-url>https://ads.itisuniqueofficial.com/</sponsor-url>
     <sponsor-name>itisuniqueofficial.com</sponsor-name>
@@ -75,3 +75,4 @@
   </ad>
 
 </ads>
+
